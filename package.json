@@ -1,0 +1,13 @@
+{
+  "name": "pronounceable",
+  "description": "an alphabetic encoding for numbers using pronounceable syllables",
+  "version": "0.0.1",
+  "author": "Ken Woodruff <ken.woodruff@gmail.com>",
+  "repository": "http://github.com/femto113/node-pronounceable.git",
+  "main": "pronounceable.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "engines": { "node": ">= 0.4.7" }
+}
