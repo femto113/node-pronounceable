@@ -2,7 +2,7 @@
 
 This is an alphabetic encoding for numbers using "pronouncable" syllables (consonant/vowel pairs)
 
-Using a combination of 20 consonants (excluding C and Y) and 5 vowels each syllable encodes the same
+Using a combination of 20 consonants (excluding C) and 5 vowels each syllable encodes the same
 number of bits as two base 10 digits, so encoded length is roughly the same as pure
 numeric digits (there will be one extra character if the numeric length is odd).
 
@@ -31,12 +31,15 @@ a simple way of generating nonsense words, but let me know if you come up with o
     ].map(function (s) { return p.decode(s); });
     // b == [9787, 9787, 9787]
 
-    // drop a character or slip in a C or Y and you get NaN
+    // drop a character or slip in a C and you get NaN
     var c = [
       "zix"
       , "cixi"
-      , "zixy"
     ].map(function (s) { return p.decode(s); });
-    // c == [NaN, NaN, NaN]
+    // c == [NaN, NaN]
 
     console.log(a, b, c);
+
+## TODO
+
+- publish to npm, update install section
