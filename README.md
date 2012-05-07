@@ -1,4 +1,4 @@
-# pronounceable
+# pronounceable [![Build Status](https://secure.travis-ci.org/femto113/node-pronounceable.png)](http://travis-ci.org/femto113/node-pronounceable)
 
 This is an alphabetic encoding for numbers using "pronouncable" syllables (consonant/vowel pairs)
 
@@ -17,7 +17,7 @@ a simple way of generating nonsense words, but let me know if you come up with o
 
 ## Example
 
-    var p = require("./pronounceable");
+    var p = require("pronounceable");
 
     var a = p.encode(9787);
     // a == "zixi"
