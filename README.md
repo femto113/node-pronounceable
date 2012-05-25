@@ -9,6 +9,10 @@ numeric digits (there will be one extra character if the numeric length is odd).
 This encoding may not have any practical purpose, the original use was for
 a simple way of generating nonsense words, but let me know if you come up with one.  
 
+Note, some time after developing this I discovered Antti Huima's [Bubble Babble](http://wiki.yak.net/589)
+which is similar in spirit.  I'm not aware of any JavaScript implmentations but there
+is one for [perl](http://search.cpan.org/~btrott/Digest-BubbleBabble-0.01/BubbleBabble.pm).
+
 ## Install
 
     git clone http://github.com/femto113/node-pronounceable.git
