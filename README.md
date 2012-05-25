@@ -14,9 +14,9 @@ Note, some time after developing this I discovered a couple similar efforts.
   designed to encode integers and gives similar sounding results to Pronounceable
   but uses an explicit list of Japanese syllables (including some 3 character ones)
 - Antti Huima's [Bubble Babble](http://wiki.yak.net/589)
-  is similar in spirit but takes hex strings rather thand numbers as input.  I'm not
-  aware of any JavaScript implmentations but CPAN has one in
-  [perl](http://search.cpan.org/~btrott/Digest-BubbleBabble-0.01/BubbleBabble.pm).
+  is similar in spirit but takes (hex) strings rather than numbers as input.  I'm not
+  aware of any JavaScript implmentations but
+  [CPAN has one](http://search.cpan.org/~btrott/Digest-BubbleBabble-0.01/BubbleBabble.pm) (perl).
 
 ## Install
 
